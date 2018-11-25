@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NBA MVP</title>
+
+    <!-- link to make bootstrap work -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Textallite CDNs-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+      <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+</head>
+<!-- Jumbotron Title-->
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="tlt text-center" id="jumboText">NBA Player of the Year</h1>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- First row of pictures-->
+    <div class="row">
+
+        <!--MVP photo set up-->
+        <div class="col-sm-3">
+            <div id="mvpplayerCard" class="playerCard">
+                <img class="playerPhoto" src="Pictures/Kris.jpg" alt="NBA MVP" title="NBA MVP">
+                <h1 class="playerphotoTitle" id="mvpTitle">MVP of the Year</h1>
+            </div>
+        </div>
+
+        <!--Defensive Player OTY photo set up-->
+        <div class="col-sm-3">
+            <div id="defensiveplayerCard" class="playerCard">
+                <img class="playerPhoto" src="Pictures/Nick.jpg" alt="NBA Defensive Player of the Year" title="NBA Defensive Player of the Year">
+                <h1 class="playerphotoTitle" id="defensiveTitle">Defensive Player of the Year</h1>
+            </div>
+        </div>
+
+        <!--6th Man OTY photo set up-->
+        <div class="col-sm-3">
+            <div id="sixthplayerCard" class="playerCard">
+                <img class="playerPhoto" src="Pictures/Darrick.jpg" alt="NBA 6th Man of the Year" title="NBA 6th Man of the Year">
+                <h1 class="playerphotoTitle" id="6thTitle">6th Man of the Year</h1>
+            </div>
+        </div>
+
+        <!--Rookie OTY photo set up-->
+        <div class="col-sm-3">
+            <div id="rookieplayerCard" class="playerCard">
+                <img class="playerPhoto" src="Pictures/Beau.jpg" alt="Rookie of the Year" title="Rookie of the Year">
+                <h1 class="playerphotoTitle" id="rookieTitle">Rookie of the Year</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!--First row of Tableau Graphs-->
+    <div class="row">
+
+        <!--MVP stats set up-->
+        <div class="col-sm-3">
+            <div id="mvpTableau" class="tableauBox">
+                <h1 class="playerstatsTitle" id="mvpStats">MVP Stats</h1>
+             <div>
+                <!--MVP Tableau goes here-->
+            </div>
+            </div>
+        </div>
+
+        <!--Defensive Player OTY stats set up-->
+        <div class="col-sm-3">
+            <div id="defensiveTableau" class="tableauBox">
+                <h1 class="playerstatsTitle" id="defensiveStats">Defensive Player of the Year Stats</h1>
+                <div>
+                    <!--MVP Tableau goes here-->
+                </div>
+            </div>
+        </div>
+
+        <!--6th Man OTY stats set up-->
+        <div class="col-sm-3">
+            <div id="sixthTableau" class="tableauBox">
+                <h1 class="playerstatsTitle" id="6thStats">6th Man of the Year Stats</h1>
+                <div>
+                    <!--Defensive Tableau goes here-->
+                </div>
+            </div>
+        </div>
+
+        <!--Rookie OTY stats set up-->
+        <div class="col-sm-3">
+            <div id="rookieTableau" class="tableauBox">
+                <h1 class="playerstatsTitle" id="rookieStats">Rookie of the Year Stats</h1>
+                <div>
+                    <!--Rookie Tableau goes here-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+    </div>
+</div>
+
+
+
+
+<!-- link to css style sheet -->
+<link href="static/css/style.css" rel="stylesheet"> 
+
+<!-- link to js-->
+<script type="text/javascript" src="static/js/logic.js"></script>
+
+<body>
+    
+</body>
+</html>
