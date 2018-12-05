@@ -1,6 +1,6 @@
 /* JumboTron background image */
 .jumbotron {
-    background-image: url("../../Pictures/basketBall2.jpg") ;
+    background-image: url("../../images/basketBall2.jpg") ;
     background-size: 500px;
     background-color: black;
     background-position: center;
@@ -17,7 +17,7 @@
 
   /* Background image page */
 body {
-    background: url("../../Pictures/woodFloor.jpg") no-repeat center fixed;
+    background: url("../../images/woodFloor.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,6 +43,16 @@ body {
 .playerphotoTitle {
     text-align: center;
     color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px white;
+}
+
+#defensiveTitle {
+    color: red;
+}
+
+#mvpTitle {
+    color: white;
 }
 
 /* All player card set up */
@@ -63,8 +73,9 @@ body {
 
 /* Defensive Card set up */
 #defensiveplayerCard {
-    background-color: blue;
+    background-color: black;
     border: 5px solid red;
+
 }
 
 /* 6th Man Card set up */
@@ -83,7 +94,8 @@ body {
 .tableauBox {
     background-color: white;
     border: 5px solid green;
-    height: 400;
+    height: 400px;
+    width: 900px;
 }
 
 /* Tableau box title set up */
@@ -92,10 +104,7 @@ body {
     color: black;
 }
 
-#rookieTableau, #mvpTableau, #defensiveTableau, #sixthTableau {
+/* #rookieTableau, #mvpTableau, #defensiveTableau, #sixthTableau {
     height: 400px;
     margin-bottom: 10px;
-}
-
-
-
+} */

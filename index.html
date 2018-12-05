@@ -24,102 +24,119 @@
     crossorigin=""></script>
 
 </head>
+<body>
+
 <!-- Jumbotron Title-->
 <div class="container">
     <div class="jumbotron">
-        <h1 class="tlt text-center" id="jumboText">NBA Player of the Year</h1>
+        <h1 class="tlt text-center" id="jumboText">NBA Most Valuable Player of the Year</h1>
     </div>
 </div>
 
 <div class="container">
 
-    <!-- First row of pictures-->
+    <!-- First row -->
     <div class="row">
 
         <!--MVP photo set up-->
         <div class="col-sm-3">
             <div id="mvpplayerCard" class="playerCard">
-                <img class="playerPhoto" src="Pictures/Kris.jpg" alt="NBA MVP" title="NBA MVP">
+                <img class="playerPhoto" src="images/Kris.jpg" alt="NBA MVP" title="NBA MVP">
                 <h1 class="playerphotoTitle" id="mvpTitle">MVP of the Year</h1>
             </div>
         </div>
 
+        <!--MVP stats set up-->
+        <div class="col-sm-9">
+            <div id="mvpTableau" class="tableauBox">
+                <div>
+                    <div class='tableauPlaceholder' id='viz1543268810973' style='position: relative'><noscript><a href='https:&#47;&#47;belfman.github.io&#47;portfolio&#47;index.html'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MV&#47;MVPOTY&#47;NBAMVPData&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MVPOTY&#47;NBAMVPData' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MV&#47;MVPOTY&#47;NBAMVPData&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1543268810973');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second row-->
+    <div class="row">
+
         <!--Defensive Player OTY photo set up-->
         <div class="col-sm-3">
             <div id="defensiveplayerCard" class="playerCard">
-                <img class="playerPhoto" src="Pictures/Nick.jpg" alt="NBA Defensive Player of the Year" title="NBA Defensive Player of the Year">
+                <img class="playerPhoto" src="images/Nick.jpg" alt="NBA Defensive Player of the Year" title="NBA Defensive Player of the Year">
                 <h1 class="playerphotoTitle" id="defensiveTitle">Defensive Player of the Year</h1>
             </div>
         </div>
 
+        <!--Defensive Player OTY stats set up-->
+        <div class="col-sm-9">
+            <div id="defensiveTableau" class="tableauBox">
+                <div>
+                <div class='tableauPlaceholder' id='viz1543978535833' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DefensivePlayerOTY&#47;DPOTY&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DefensivePlayerOTY&#47;DPOTY' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DefensivePlayerOTY&#47;DPOTY&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1543978535833');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='904px';vizElement.style.height='392px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
         <!--6th Man OTY photo set up-->
         <div class="col-sm-3">
             <div id="sixthplayerCard" class="playerCard">
-                <img class="playerPhoto" src="Pictures/Darrick.jpg" alt="NBA 6th Man of the Year" title="NBA 6th Man of the Year">
+                <img class="playerPhoto" src="images/Darrick.jpg" alt="NBA 6th Man of the Year" title="NBA 6th Man of the Year">
                 <h1 class="playerphotoTitle" id="6thTitle">6th Man of the Year</h1>
             </div>
         </div>
 
+        <!--6th Man OTY stats set up-->
+        <div class="col-sm-9">
+            <div id="sixthTableau" class="tableauBox">
+                <div>
+                <div class='tableauPlaceholder' id='viz1543978731681' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;6t&#47;6thManOTY&#47;NBA6thData&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='6thManOTY&#47;NBA6thData' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;6t&#47;6thManOTY&#47;NBA6thData&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1543978731681');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='904px';vizElement.style.height='392px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
         <!--Rookie OTY photo set up-->
         <div class="col-sm-3">
             <div id="rookieplayerCard" class="playerCard">
-                <img class="playerPhoto" src="Pictures/Beau.jpg" alt="Rookie of the Year" title="Rookie of the Year">
+                <img class="playerPhoto" src="images/Beau.jpg" alt="Rookie of the Year" title="Rookie of the Year">
                 <h1 class="playerphotoTitle" id="rookieTitle">Rookie of the Year</h1>
             </div>
         </div>
+
+        <!--Rookie OTY stats set up-->
+        <div class="col-sm-9">
+            <div id="rookieTableau" class="tableauBox">
+                <div>
+                <div class='tableauPlaceholder' id='viz1543979596609' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ro&#47;RookieOTY&#47;RookieData&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='RookieOTY&#47;RookieData' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ro&#47;RookieOTY&#47;RookieData&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1543979596609');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='904px';vizElement.style.height='392px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                
+                </div>
+            </div>
+        </div>
+    </div>
 
     </div>
 
     <!--First row of Tableau Graphs-->
     <div class="row">
 
-        <!--MVP stats set up-->
-        <div class="col-sm-3">
-            <div id="mvpTableau" class="tableauBox">
-                <h1 class="playerstatsTitle" id="mvpStats">MVP Stats</h1>
-             <div>
-                <!--MVP Tableau goes here-->
-            </div>
-            </div>
-        </div>
+        
 
-        <!--Defensive Player OTY stats set up-->
-        <div class="col-sm-3">
-            <div id="defensiveTableau" class="tableauBox">
-                <h1 class="playerstatsTitle" id="defensiveStats">Defensive Player of the Year Stats</h1>
-                <div>
-                    <!--MVP Tableau goes here-->
-                </div>
-            </div>
-        </div>
 
-        <!--6th Man OTY stats set up-->
-        <div class="col-sm-3">
-            <div id="sixthTableau" class="tableauBox">
-                <h1 class="playerstatsTitle" id="6thStats">6th Man of the Year Stats</h1>
-                <div>
-                    <!--Defensive Tableau goes here-->
-                </div>
-            </div>
-        </div>
 
-        <!--Rookie OTY stats set up-->
-        <div class="col-sm-3">
-            <div id="rookieTableau" class="tableauBox">
-                <h1 class="playerstatsTitle" id="rookieStats">Rookie of the Year Stats</h1>
-                <div>
-                    <!--Rookie Tableau goes here-->
-                </div>
-            </div>
-        </div>
+
+
+        
 
     </div>
 
     <div class="row">
-
+        <div id="trial">
+        <!-- Leafelt team map will go here-->
     </div>
-</div>
-
+        
 
 
 
@@ -129,7 +146,6 @@
 <!-- link to js-->
 <script type="text/javascript" src="static/js/logic.js"></script>
 
-<body>
     
 </body>
 </html>
