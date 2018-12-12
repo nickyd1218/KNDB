@@ -1,0 +1,110 @@
+/* JumboTron background image */
+.jumbotron {
+    background-image: url("../../images/basketBall2.jpg") ;
+    background-size: 500px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+
+  /* JumboTron text */
+  #jumboText {
+      text-shadow: 4px 4px 2px black;
+      color: white;
+      font-size: 75px;
+  }
+
+  /* Background image page */
+body {
+    background: url("../../images/woodFloor.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Define MVP color 1 */
+:root {
+    --mvpColor1: gold;
+}
+
+/* Player Photo set up */
+.playerPhoto {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+/* Player Title set up */
+.playerphotoTitle {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px white;
+}
+
+#defensiveTitle {
+    color: red;
+}
+
+#mvpTitle {
+    color: white;
+}
+
+/* All player card set up */
+.playerCard {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+/* MVP Card set up */
+#mvpplayerCard {
+    background-color: purple;
+    border: 5px solid var(--mvpColor1);
+}
+/* MVP Title styling for Textallite*/
+#mvpTitle {
+    text-shadow: 4px 4px 5px var(--mvpColor1);
+  }
+
+/* Defensive Card set up */
+#defensiveplayerCard {
+    background-color: black;
+    border: 5px solid red;
+
+}
+
+/* 6th Man Card set up */
+#sixthplayerCard {
+    background-color: dodgerblue;
+    border: 5px solid yellow;
+}
+
+/* Rookie Card set up */
+#rookieplayerCard {
+    background-color: red;
+    border: 5px solid white;
+}
+
+/* Tableau box set up */
+.tableauBox {
+    background-color: white;
+    border: 5px solid green;
+    height: 400px;
+    width: 900px;
+}
+
+/* Tableau box title set up */
+.playerstatsTitle {
+    text-align: center;
+    color: black;
+}
+
+/* #rookieTableau, #mvpTableau, #defensiveTableau, #sixthTableau {
+    height: 400px;
+    margin-bottom: 10px;
+} */
