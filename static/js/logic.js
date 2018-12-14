@@ -29,4 +29,21 @@ $(function () {
     });
   });
 
+  // Credits text animation set up
+$(function () {
+    $('#credits').textillate({
+        loop: true,
+        initialDelay: 50,
+        in: {
+            effect: 'bounceIn',
+            delay: 60,
+            shuffle: false,
+        },
+        out: {
+            effect: 'bounceOut',
+            delay: 10,
+            shuffle: false
+        }
+    });
+  });
 

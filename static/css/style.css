@@ -15,14 +15,28 @@
       font-size: 75px;
   }
 
-  /* Background image page */
+  /* Background image page, wood floor*/
 body {
-    background: url("../../images/woodFloor.jpg") no-repeat center fixed;
+    background: url("../../images/woodFloor.jpg") center;
+    background-image: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+#slider {
+    text-align: center;
+    font-size: 25px;
+    height: 365px;
+}
+
+#sliderList {
+    list-style-type: circle;
+}
+
 
 /* Define MVP color 1 */
 :root {
@@ -93,7 +107,7 @@ body {
 /* Tableau box set up */
 .tableauBox {
     background-color: white;
-    border: 5px solid green;
+    border: 5px solid orange;
     height: 400px;
     width: 900px;
 }
@@ -104,7 +118,178 @@ body {
     color: black;
 }
 
-/* #rookieTableau, #mvpTableau, #defensiveTableau, #sixthTableau {
-    height: 400px;
-    margin-bottom: 10px;
-} */
+
+/* Nav Bar Settings */
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #navbar {
+    background-color: black;
+    /* position: fixed; */
+    top: 0;
+    width: 105px;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    width: 105px;
+  }
+
+  .carousel-control {
+      width: 30px;
+  }
+
+  .curry {
+    color: dodgerblue;
+    background-color: yellow;
+    width: 125px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid dodgerblue;
+  }
+
+  .harden {
+    color: black;
+    background-color: red;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid black;
+  }
+
+  .westbrook {
+    color: orange;
+    background-color: navy;
+    width: 140px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid orange;
+  }
+
+  .lebron {
+    color: white;
+    background-color: purple;
+    width: 140px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid gold;
+  }
+
+  .davis {
+    color: white;
+    background-color: #00265B;
+    width: 140px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid #B6995A;
+  }
+
+  .giannis {
+    color: #004614;
+    background-color: rgb(240, 240, 240);
+    width: 160px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid black;
+  }
+
+  .kawhi {
+    color: white;
+    background-color: RGB(206,9,63);
+    width: 160px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid black;
+  }
+
+  .lrColors {
+      background: black;
+  }
+
+  .bucksColor {
+    background-image: url("../../images/bucks-banner2.png");
+    background-size: 1100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    }
+
+    .lakersColor {
+    background-image: url("../../images/lakers-banner.png");
+    background-size: 900px;
+    background-position: left;
+    background-repeat: no-repeat;
+    }
+
+    .pelicansColor {
+        background-image: url("../../images/pelicans-banner2.jpg");
+        background-size: 1100px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .raptorsColor {
+        background-image: url("../../images/raptors-banner2.jpg");
+        background-size: 1100px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .warriorsColor {
+        background-image: url("../../images/warriors-banner2.jpg");
+        background-size: 900px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .thundersColor {
+        background-image: url("../../images/thunder-banner2.jpg");
+        background-size: 900px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .rocketsColor {
+        background-image: url("../../images/rockets-banner2.jpg");
+        background-size: 900px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+  li {
+      list-style: none;
+  }
+
+  #credits {
+      background-color: black;
+      color: orange;
+      padding: 5px;
+      text-align: center;
+      width: 1100px;
+      display: inline-block;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+  }
