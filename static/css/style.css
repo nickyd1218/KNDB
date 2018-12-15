@@ -293,3 +293,8 @@ body {
       margin-right: auto;
       margin-bottom: 20px;
   }
+
+  #iloc {
+    overflow: scroll;
+    height: 400px;
+  }
